@@ -19,7 +19,7 @@ def stock():
     # Grab the inputs arguments from the URL
     # This is automated by the button
     args = flask.request.args
-
+    return 'ALA'
     # Get all the form arguments in the url with defaults
     if 'company' in args.keys() and args['company']:
         company = args['company']
