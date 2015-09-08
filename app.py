@@ -12,7 +12,7 @@ import requests
 
 
 app = flask.Flask(__name__)
-
+app.secret_key = 'bacon'
 @app.route("/")
 def stock():
     """ Very simple plot of stock closing price for last month or so"""
